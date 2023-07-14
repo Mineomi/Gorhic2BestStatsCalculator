@@ -164,12 +164,6 @@ public class GothicCalculator implements ActionListener {
             //System.out.println(statsA[0] + " " + statsB[0]);
         }while(statsA[0] > statsB[0]);
 
-        //System.out.println("Jak najoptymalniej moga wygladac twoje staty:");
-        //System.out.println("sila: "+ statsB[1]);
-        //System.out.println("Umiejetnosci walki: "+ statsB[2]);
-        //System.out.println("Zwykly cios: " + (statsB[1] + oB)*0.1);
-        //System.out.println("krytyczny cios: "+  (statsB[1] + oB));
-        //System.out.println("Srednie obrazenia na cios: "+ ((((statsB[1] + oB)*statsB[2]) + ((statsB[1] + oB) * (100-statsB[2]) *0.1)) /100));
         textFields.get(8).setText("Best build:");
         textFields.get(9).setText("Strength: "+ statsB[1]);
         textFields.get(10).setText("Fighting skills: "+ statsB[2]);
